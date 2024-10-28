@@ -31,10 +31,8 @@ header {
 .intro {   
     margin-bottom: 20px;
     padding: 20px;
-    background: #fff;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 8px 5px 15px 5px hsl(226, 58%, 16%);    
 }
 
 
@@ -194,24 +192,6 @@ header {
             height: 500px;
         }
 
-nav ul li a 
-{
-    text-decoration: none;
-    transition: color 0.3s ease;
-    color: rgb(39, 35, 95);
-}
-        
-nav ul li a:hover 
-{
-    color: #5c7ef0;
-}
-
-nav ul li 
-{
-    display: inline-block;
-    margin: 0 40px;
-    font-size: 35px;
-}
 .navbar
  {
     display: flex;
@@ -229,4 +209,16 @@ nav ul li
     flex: 1;
     text-align: center;
     margin: 0 15px; 
+}
+
+.nav-item a {
+    display: block;
+    padding: 15px 20px; 
+    font-size: 35px; 
+    font-weight: bold; 
+    color: rgb(39, 35, 95);
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 20px rgb(39, 35, 95);
 }
