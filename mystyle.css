@@ -192,16 +192,12 @@ header {
             height: 500px;
         }
 
-.navbar
- {
-    display: flex;
-    font-size: 3vw;
- }
 
 .navbar
  {
     display: flex;
     font-size: 3vw;
+    width: 100%;
  }
 
 .nav-item 
@@ -242,7 +238,6 @@ header {
 
     .navbar 
     {
-        font-size: 5vw;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
@@ -252,6 +247,13 @@ header {
     {
         font-size: 25px;
         margin: 10px 0;
+
+    }
+
+    .nav-item
+    {
+        width: 100%; 
+        margin: 5px 0; 
     }
 }   
 
