@@ -108,14 +108,13 @@ header {
 
 .me {
     width: 450px; 
-    height: 400px;
-    padding: 20px;
-    box-sizing: content-box;
+    height: auto;
     background-color: #fff;
     box-shadow: 8px 5px 15px 5px hsl(226, 58%, 16%); 
     border-radius: 10px;   
     margin: auto; 
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .sci {
@@ -143,8 +142,6 @@ header {
 {
     width: 300px;
     height: 350px;
-    border: 2px solid #291200;
-    padding: 20px;
 }
 
 .boxpicture 
@@ -205,6 +202,7 @@ header {
     flex: 1;
     text-align: center;
     margin: 0 15px; 
+    align-items: center;
 }
 
 .nav-item a {
@@ -255,6 +253,18 @@ header {
         width: 100%; 
         margin: 5px 0; 
     }
+
+    .me {
+        height: auto; 
+        padding: 15px; 
+    }
+    #pooad
+    {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    }
+
 }   
 
 @media (max-width: 360px) {
@@ -279,6 +289,18 @@ header
 {
    font-size: 20px;
    margin: 10px 0;
+}
+.me {
+    height: auto; 
+    width: 90%;
+    padding: 15px; 
+}
+
+#pooad
+{
+width: 60%;
+height: auto;
+padding: 20px;
 }
 
 }
