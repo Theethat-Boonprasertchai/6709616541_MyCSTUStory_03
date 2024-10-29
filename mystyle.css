@@ -228,3 +228,55 @@ header {
     color: #4468eb;
     background-color: #eeeeee; 
 }
+
+@media (max-width: 768px) {
+    body
+     {
+        padding: 20px;
+    }
+
+    header 
+    {
+        font-size: 25px;
+    }
+
+    .navbar 
+    {
+        font-size: 5vw;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-item a 
+    {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+}   
+
+@media (max-width: 360px) {
+body
+{
+   padding: 20px;
+}
+
+header 
+{
+   font-size: 20px;
+}
+
+.navbar 
+{
+   font-size: 5vw;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.nav-item a 
+{
+   font-size: 20px;
+   margin: 10px 0;
+}
+
+}
