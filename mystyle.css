@@ -98,7 +98,7 @@ header {
 
 
 .media video ,.media{
-    width: 50%;
+    width: 70%;
     margin-top: 20px;   
     
 }
@@ -320,6 +320,13 @@ img {
         max-width: 100%;
         height: 50%;
     }
+
+    .media video ,.media{
+        width: 70%;
+        margin-top: 20px;   
+        
+    }
+    
 }
   
 
