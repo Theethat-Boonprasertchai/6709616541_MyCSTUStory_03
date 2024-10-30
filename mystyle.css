@@ -331,7 +331,7 @@ img {
 }
   
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
 body
 {
    padding: 20px;
